@@ -1,0 +1,21 @@
+[package]
+name = "aptos-minter"
+version = "1.0.0"
+authors = []
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-framework/", rev="main" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-token/", rev="main" }
+
+
+[addresses]
+aptos_framework = "0x1"
+
+# change it to the default source address when publishing the module
+minter = "4867ae319ef44d47546721b3665866a61ab05bb515e7a6cb3ffe5461dd910b14"
+
+# change it to the actual admin address when publishing the module
+admin_addr = "0570c24f241beda851f3d058807445b984776325382c5b99304d27c0e12502e0"
+
+# this will set your partner address - default to aptosnftstudio address. 
+aptosnftstudio_addr = "0xc89ffcac4f1052991d367b6641284ae0022c3eb9114c0bad71be2d6087fff6c0"

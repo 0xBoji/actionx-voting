@@ -1,0 +1,59 @@
+---
+compiled_package_info:
+  package_name: aptos-minter
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    admin_addr: 0570c24f241beda851f3d058807445b984776325382c5b99304d27c0e12502e0
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_fungible_asset: 000000000000000000000000000000000000000000000000000000000000000a
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    aptosnftstudio_addr: c89ffcac4f1052991d367b6641284ae0022c3eb9114c0bad71be2d6087fff6c0
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    mint_nft: de1f5865d7cb37ea6055a8a560c803604b6717bacd9a8e97013dcc359d1ac36c
+    minter: 4867ae319ef44d47546721b3665866a61ab05bb515e7a6cb3ffe5461dd910b14
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm: "0000000000000000000000000000000000000000000000000000000000000000"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: A3582619714105DF67EF34D803B0E280E2DC8EFDF6E1F76CD2D79C51EF4F7A8F
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    override_std: ~
+    generate_docs: false
+    generate_abis: false
+    generate_move_model: true
+    full_model_generation: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      mint_nft: de1f5865d7cb37ea6055a8a560c803604b6717bacd9a8e97013dcc359d1ac36c
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    compiler_config:
+      bytecode_version: ~
+      known_attributes:
+        - bytecode_instruction
+        - deprecated
+        - event
+        - expected_failure
+        - "fmt::skip"
+        - legacy_entry_fun
+        - "lint::allow_unsafe_randomness"
+        - native_interface
+        - randomness
+        - resource_group
+        - resource_group_member
+        - test
+        - test_only
+        - verify_only
+        - view
+      skip_attribute_checks: false
+      compiler_version: ~
+      language_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - AptosToken
+  - MoveStdlib

@@ -1,0 +1,23 @@
+---
+profiles:
+  admin-account:
+    network: Devnet
+    private_key: "0x3107c20730eb83d12ee3567eda199c26f710c7d1e68bcfb35db05e9edd9c5098"
+    public_key: "0x7e18b838b07c9aa71fc6b2e090f356dd2eef8a325983ede109145c2c1f45599d"
+    account: 0570c24f241beda851f3d058807445b984776325382c5b99304d27c0e12502e0
+    rest_url: "https://fullnode.devnet.aptoslabs.com"
+    faucet_url: "https://faucet.devnet.aptoslabs.com"
+  default:
+    network: Devnet
+    private_key: "0xcc134c32e5eaef4cf263811e30e0a4b66a038aa6daf77e0c1298a2e3aad8bc14"
+    public_key: "0x0003069435bc9f1c74de0509ffeeda48208cc7ecc441c67edf5135a2f4f3ad25"
+    account: 4867ae319ef44d47546721b3665866a61ab05bb515e7a6cb3ffe5461dd910b14
+    rest_url: "https://fullnode.devnet.aptoslabs.com"
+    faucet_url: "https://faucet.devnet.aptoslabs.com"
+  nft-receiver:
+    network: Devnet
+    private_key: "0xabdd19e83316a53b8357b6b663e2c524310a1ae91ed39ec375a2b80931dff820"
+    public_key: "0xf6490eaa08c419613e4d05a748e58538c8f6e0fd41a0ee2fd115b61e9d0478d2"
+    account: 88c3ed03c7b4fdef51fe370f2cf7e89e2d38742445715ec53872af95ff17d7df
+    rest_url: "https://fullnode.devnet.aptoslabs.com"
+    faucet_url: "https://faucet.devnet.aptoslabs.com"
